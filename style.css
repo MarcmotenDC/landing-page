@@ -5,10 +5,34 @@
 
 .header {
     text-align: center;
-    background-color: #2E6171;
+    background-color: #19353E;
     color: #d5d5d5;
     padding: 4rem;
 }
 .title {
     margin: 10px;
+}
+
+.section {
+    margin: 40px 0px;
+
+}
+
+.sectionContent {
+    background-color: #8FBCC1;
+    padding: 2rem;
+}
+.sectionTitle {
+    margin: 6px;
+    text-decoration: underline;
+}
+
+.sectionContent p {
+    padding: 0.5rem;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 22px;
+    padding: 10px;
 }
