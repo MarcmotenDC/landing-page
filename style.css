@@ -60,3 +60,15 @@ li {
     font-size: 18px;
     margin: 10px;
 }
+
+#socials {
+    display: flex;
+    align-items: baseline;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#socialTitle {
+    text-align: center;
+}
