@@ -1,5 +1,8 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
     background-color: #f3efef;
     color: #2c2c2c
 }
@@ -15,6 +18,7 @@
 }
 
 .titleDesc {
+    font-size: 20px;
 }
 
 img {
@@ -26,7 +30,7 @@ img {
 
 .section {
     margin: 40px 0px;
-
+    background-color: deepskyblue;
 }
 
 .sectionContent {
