@@ -1,13 +1,24 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
+    background-color: #f3efef;
+    color: #2c2c2c
 }
 
 .header {
     text-align: center;
-    background-color: #19353E;
-    color: #d5d5d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 4rem;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.titleDesc {
+}
+
+img {
+    border-radius: 8px;
 }
 .title {
     margin: 10px;
@@ -19,7 +30,6 @@
 }
 
 .sectionContent {
-    background-color: #8FBCC1;
     padding: 2rem;
 }
 .sectionTitle {
