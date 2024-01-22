@@ -1,10 +1,11 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 body {
     background-color: #f3efef;
-    color: #2c2c2c
+    color: #2c2c2c;
+    margin: auto;
 }
 
 .header {
@@ -13,40 +14,49 @@ body {
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    gap: 30px;
+    gap: 80px;
+    
     flex-wrap: wrap;
 }
 
 .titleDesc {
-    font-size: 20px;
+    font-size: 24px;
+    margin: 10px 0;
 }
 
 img {
     border-radius: 8px;
+    box-shadow: 4px 4px 4px #acacac;
+    border-color: #2c2c2c;
 }
 .title {
-    margin: 10px;
+    margin: 4px 0;
+    font-size: 50px;
 }
 
 .section {
     margin: 40px 0px;
-    background-color: deepskyblue;
+    background-color: #CAE0E2;
+    padding: 3rem 1.5rem;
 }
 
-.sectionContent {
-    padding: 2rem;
+.sectionW {
+    margin: 4rem 0px;
+    padding: 1.5rem;
 }
+
+
 .sectionTitle {
-    margin: 6px;
-    text-decoration: underline;
+
+    font-size: 32px;
 }
 
 .sectionContent p {
     padding: 0.5rem;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-h3 {
-    font-size: 22px;
-    padding: 10px;
+li {
+    font-size: 18px;
+    margin: 10px;
 }
