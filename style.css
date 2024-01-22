@@ -24,7 +24,7 @@ body {
     margin: 10px 0;
 }
 
-img {
+.marcImg {
     border-radius: 8px;
     box-shadow: 4px 4px 4px #acacac;
     border-color: #2c2c2c;
